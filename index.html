@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefeitura do Rio de Janeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logoRedonaPrefeitura.png" type="image/x-icon">
+</head>
+<body>
+    <header class="containerHeader">
+        <div>
+            <img src="logoQuadradaPref.png" alt="" id="ft1">
+        </div>
+        <div>
+            <h1>PREFEITURA DO RIO</h1>
+        </div>
+        <div>
+            <img src="logoQuadradaPref.png" alt="" id="ft2">
+        </div>
+    </header>
+    <section>
+        <h2><em>CADASTRO DE DADOS DOS MORADORES DO RIO DE JANEIRO</em></h2>
+        <hr>
+        <div class="primeirosDados">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Ex: José"><br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Ex: da Silva"> <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Ex: josedasilva@gmail.com"><br>
+            <label for="telfixo">Tel fixo:</label>
+            <input type="text" name="telfixo" id="telfixo" placeholder="Ex: 21 3333-3333"><small style="color: #ff0000">*opcional</small><br>
+            <label for="celular">Celular:</label>
+            <input type="text" name="celular" id="celular" placeholder="Ex: 21 99999-9999"><br>
+            <label for="emdereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Ex: Rua Nova, Bloco B, Apto 101, n°10"><br>
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="bairro" placeholder="Ex: São Miguel Arcanjo"><br>
+            <label for="municipio">Municipio:</label>
+            <input type="text" name="municipio" id="municipio" placeholder="Mangaratiba - RJ"><br>
+            <div id="small">
+                <small>*Confira seus dados com atenção</small>
+            </div>
+            <hr>
+            <div class="botao">
+                <button onclick="cadastrar()" id="botaoCadastro">Cadastrar</button>
+            </div>
+        </div>
+
+        <div id="resposta">
+            <h2>Preencha os dados acima para visualizar seu cadastro</h2>
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        2023 &copy; Rafael Constantino
+    </footer>
+</body>
+</html>

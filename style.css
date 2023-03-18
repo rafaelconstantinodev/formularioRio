@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor1: #004680;
+    --cor2: #0EB9ED;
+    --cor3: #FEFDFD;
+}
+img {
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor1));
+}
+/*--------------------------------------------------------------------*/
+#ft1 {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+} 
+#ft2 {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+/*--------------------------------------------------------------------*/
+.containerHeader {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    min-width: 100px;
+    margin: auto;
+    color: var(--cor3);
+}
+/*--------------------------------------------------------------------*/
+section {
+    background-color: var(--cor3);
+
+    
+    margin: auto;
+    border-radius: 20px;
+
+    max-width: 800px;
+    min-width: 300px;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    color: var(--cor3);
+    margin: 25px 0px;
+}
+/*--------------------------------------------------------------------*/
+.primeirosDados {
+    padding-left: 10px;
+}
+#nome {
+    margin: 5px;
+    width: 293px; 
+}
+#sobrenome {
+    margin: 5px;
+    width: 253px; 
+}
+#email {
+    margin: 5px;
+    width: 296px; 
+}
+#telfixo {
+    margin: 5px;
+    width: 286px; 
+}
+#celular {
+    margin: 5px;
+    width: 286px; 
+}
+#endereco {
+    margin: 5px;
+    width: 270px; 
+}
+#bairro {
+    margin: 5px;
+    width: 295px; 
+}
+#municipio {
+    margin: 5px;
+    width: 270px; 
+}
+/*--------------------------------------------------------------------*/
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#botaoCadastro {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    font-weight: bold;
+    font-size: 18px;
+}
+#botaoCadastro:hover {
+    background-color: var(--cor2);
+}
+#small {
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+}
+#meuBotao { /*customização do botão criado em JS*/
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+}
+#resposta {
+    margin: 10px;
+    padding: 10px;
+}
